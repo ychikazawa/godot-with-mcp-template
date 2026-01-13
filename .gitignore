@@ -1,3 +1,52 @@
 # Godot 4+ specific ignores
 .godot/
+.nomedia
 /android/
+
+# Godot-specific ignores
+.import/
+export.cfg
+export_credentials.cfg
+
+# Imported translations (automatically generated from CSV files)
+*.translation
+
+# Mono-specific ignores
+.mono/
+data_*/
+mono_crash.*.json
+
+# Environment variables and secrets
+.env
+.env.*
+*.key
+*.crt
+
+# Logs
+*.log
+
+# IDE
+.vscode/
+.idea/
+
+# OS-specific
+.DS_Store
+Thumbs.db
+*.swp
+
+# Temporary files
+*.tmp
+
+# Build artifacts
+build/
+dist/
+*.apk
+*.ipa
+*.aab
+
+# User data (local storage)
+user://
+
+# Test artifacts
+.gut/
+junit_*.xml
